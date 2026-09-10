@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dyewgykycu18e"
+path="res://.godot/imported/Menu Selection Click.wav-0729c07079750c46c50437344cb7b781.sample"
+
+[deps]
+
+source_file="res://Audio/Menu Selection Click.wav"
+dest_files=["res://.godot/imported/Menu Selection Click.wav-0729c07079750c46c50437344cb7b781.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

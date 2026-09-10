@@ -1,0 +1,35 @@
+# =========================================================
+# 七海千秋的处刑回天 — Git 忽略规则（安全上传用）
+# =========================================================
+
+# ---- Godot 4 引擎缓存（会自动重新生成，切勿上传）----
+.godot/
+/android/
+
+# ---- 导出产物（体积大；分发请走 GitHub Releases 或网盘）----
+Nanami_Tetris.exe
+Nanami_Tetris.console.exe
+Nanami_Tetris.pck
+*.exe
+*.pck
+/build/
+/dist/
+/export/
+
+# ---- 本地备份 / 压缩包 ----
+backup/
+*.zip
+
+# ---- Godot 导出凭据 / 签名（重要：绝不能上传）----
+export_credentials.cfg
+
+# ---- 日志 / 临时文件 ----
+*.log
+logs/
+*.tmp
+*~
+
+# ---- 操作系统垃圾文件 ----
+.DS_Store
+Thumbs.db
+desktop.ini
